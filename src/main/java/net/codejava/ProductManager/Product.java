@@ -14,6 +14,7 @@ public class Product {
 	private String brand;
 	private String madein;
 	private float price;
+	int a=12;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public int getId() {
